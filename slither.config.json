@@ -1,0 +1,30 @@
+{
+  "detectors_to_run": [
+    "reentrancy-eth",
+    "reentrancy-no-eth",
+    "reentrancy-benign",
+    "uninitialized-state",
+    "uninitialized-storage",
+    "arbitrary-send",
+    "controlled-delegatecall",
+    "weak-prng",
+    "suicidal",
+    "unprotected-upgrade",
+    "incorrect-equality",
+    "locked-ether",
+    "shadowing-state",
+    "tx-origin",
+    "assembly",
+    "low-level-calls",
+    "unchecked-transfer",
+    "unchecked-lowlevel",
+    "timestamp",
+    "costly-loop",
+    "dead-code"
+  ],
+  "detectors_to_exclude": [],
+  "filter_paths": "lib/",
+  "solc_remaps": [
+    "forge-std/=lib/forge-std/src/"
+  ]
+}
